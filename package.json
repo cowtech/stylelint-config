@@ -1,0 +1,50 @@
+{
+  "name": "@cowtech/stylelint-config",
+  "version": "0.1.0",
+  "description": "CowTech stylelint configuration",
+  "homepage": "https://github.com/cowtech/stylelint-config/issues",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cowtech/stylelint-config.git"
+  },
+  "keywords": [
+    "stylelint",
+    "stylelint-config",
+    "cowtech"
+  ],
+  "bugs": {
+    "url": "https://github.com/cowtech/stylelint-config/issues"
+  },
+  "author": "Shogun <shogun@cowtech.it>",
+  "license": "ISC",
+  "private": false,
+  "files": [
+    "index.js",
+    "CHANGELOG.md",
+    "LICENSE.md",
+    "README.md"
+  ],
+  "type": "module",
+  "exports": "./index.js",
+  "main": "index.js",
+  "scripts": {
+    "format": "prettier -w *.js",
+    "lint": "eslint --cache --ext .js,.jsx,.ts,.tsx .",
+    "typecheck": "exit 0",
+    "test": "exit 0",
+    "ci": "npm run lint",
+    "prepublishOnly": "npm run ci",
+    "postpublish": "git push origin && git push origin -f --tags"
+  },
+  "dependencies": {
+    "stylelint-config-prettier-scss": "^1.0.0",
+    "stylelint-config-standard-scss": "^13.0.0"
+  },
+  "devDependencies": {
+    "@cowtech/eslint-config": "^9.0.3",
+    "prettier": "^3.2.4"
+  },
+  "engines": {
+    "node": ">= 18.18.0"
+  }
+}
