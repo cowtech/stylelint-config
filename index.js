@@ -106,6 +106,7 @@ export const propertiesOrder = [
   'text-decoration',
   'text-transform',
   'text-align',
+  'text-overflow',
   'vertical-align',
   'white-space',
   // SVG
@@ -132,7 +133,10 @@ export const propertiesOrder = [
   'pointer-events',
   // Font declaration
   'src',
-  'unicode-range'
+  'unicode-range',
+  // Counters
+  'counter-increment',
+  'counter-reset'
 ]
 
 export default {
