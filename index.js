@@ -131,6 +131,7 @@ export const propertiesOrder = [
   // Cursor
   'cursor',
   'pointer-events',
+  'user-select',
   // Font declaration
   'src',
   'unicode-range',
