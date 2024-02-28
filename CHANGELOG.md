@@ -1,3 +1,7 @@
+### 2024-02-28 / 0.2.0
+
+- feat: Added new properties.
+
 ### 2024-02-27 / 0.1.2
 
 - fix: Added missing properties.
