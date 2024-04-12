@@ -1,3 +1,8 @@
+### 2024-04-12 / 0.2.1
+
+- chore: Updated dependencies.
+- chore: Added missing dependency.
+
 ### 2024-02-28 / 0.2.0
 
 - feat: Added new properties.
