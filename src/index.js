@@ -140,7 +140,7 @@ export const propertiesOrder = [
   'counter-reset'
 ]
 
-export default {
+export const cowtech = {
   extends: ['stylelint-config-standard-scss', 'stylelint-config-prettier-scss'],
   plugins: ['stylelint-order'],
   rules: {
@@ -155,3 +155,5 @@ export default {
     'value-keyword-case': null
   }
 }
+
+export default cowtech
