@@ -1,3 +1,9 @@
+### 2024-12-28 / 1.0.1
+
+- chore: Updated dependencies.
+- chore: Fixed Node.js version in CI.
+- chore: Choose a valid Node.js version.
+
 ### 2024-10-20 / 1.0.0
 
 - feat!: Dropped support for Node 18.
