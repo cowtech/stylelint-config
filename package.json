@@ -1,6 +1,6 @@
 {
   "name": "@cowtech/stylelint-config",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "CowTech stylelint configuration",
   "homepage": "https://github.com/cowtech/stylelint-config/issues",
   "repository": {
