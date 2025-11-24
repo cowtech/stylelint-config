@@ -1,3 +1,8 @@
+### 2025-11-24 / 2.0.0
+
+- chore: Test on Windows.
+- feat!: Dropped support for Node 20.
+
 ### 2024-12-28 / 1.0.1
 
 - chore: Updated dependencies.
