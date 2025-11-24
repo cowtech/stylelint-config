@@ -1,3 +1,7 @@
+### 2025-11-24 / 2.0.1
+
+- chore: Updated dependencies.
+
 ### 2025-11-24 / 2.0.0
 
 - chore: Test on Windows.
