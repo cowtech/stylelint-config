@@ -43,7 +43,7 @@
     "stylelint-order": "^7.0.0"
   },
   "devDependencies": {
-    "@cowtech/eslint-config": "^11.0.0",
+    "@cowtech/eslint-config": "^11.1.1",
     "eslint": "^9.39.1",
     "prettier": "^3.6.2"
   },
