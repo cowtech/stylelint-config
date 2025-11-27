@@ -1,3 +1,7 @@
+### 2025-11-27 / 2.0.2
+
+- chore: Sanitized type only imports.
+
 ### 2025-11-24 / 2.0.1
 
 - chore: Updated dependencies.
