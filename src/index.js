@@ -147,6 +147,8 @@ export const cowtech = {
     'color-function-notation': null,
     // This is to enable emptyLineBeforeUnspecified in order/properties-order to work
     'declaration-empty-line-before': ['never', { ignore: 'after-declaration' }],
+    // This doesn't work with CSS nesting, see https://github.com/stylelint/stylelint/issues/8849
+    'no-descending-specificity': null,
     'media-feature-range-notation': null,
     'order/properties-order': [
       propertiesOrder,
