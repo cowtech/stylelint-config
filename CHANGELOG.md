@@ -1,3 +1,7 @@
+### 2025-11-30 / 2.0.5
+
+- fix: Remove broken rule.
+
 ### 2025-11-27 / 2.0.4
 
 - fix: Correctly sort type only imports.
